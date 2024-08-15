@@ -1,88 +1,93 @@
+
 body {
-    background-image: url('calc2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  .calculator-container {
+    background-color: #e0e0e0; 
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
     width: 320px;
-    height: auto;
-    border: 1px solid #c7b7b7;
-    padding: 20px;
-    border-radius: 16px;
-    background-color: #050505;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  .display-screen {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 70px;
+    background-color: #2b3957; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.display-screen {
+    background-color: #fffff;
+    color: #ffffff; 
+    padding: 15px;
+    text-align: right;
+    font-size: 2em;
+    border-bottom: 1px solid #dddddd; 
+}
+
+.buttons {
     padding: 10px;
-    background-color: #dccfcf;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  #display {
-    font-size: 24px;
-    color: #000000;
-  }
-  
-  .buttons {
-    background-color: #000000;
-  }
-  
-  table {
+}
+
+.buttons table {
     width: 100%;
-  }
-  
-  td {
-    padding: 4px;
-  }
-  
-  button {
+    border-collapse: collapse;
+}
+
+.buttons td {
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    height: 60px;
     border: none;
-    width: 100%;
-    height: 50px;
-    margin-bottom: 10px;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    background-color: #f3ebe4;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: #45597d; 
+    color: #ffffff; 
     cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #e4dcd4;
-  }
-  
-  button.btn-clear {
-    background-color: #ffd1b3;
-  }
-  
-  button.btn-clear:hover {
-    background-color: #ffbb8c;
-  }
-  
-  button.btn-operator {
-    background-color: #6699cc;
-  }
-  
-  button.btn-operator:hover {
-    background-color: #4c83b3;
-  }
-  
-  button.btn-equal {
-    background-color: #e6c785;
-    height: 100px;
-  }
-  
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+    background-color: #3a4c6a;
+}
+
+button:active {
+    background-color: #b3b3b3;
+}
+
+.btn-operator {
+    background-color: #2b3957; 
+    color: #ffffff; 
+}
+
+.btn-operator:hover {
+    background-color: #2a3756; 
+}
+
+.btn-operator:active {
+    background-color: #e64a19; 
+}
+
+.btn-equal {
+    background-color: #e07a57; 
+    color: #ffffff;
+    height: 130px;
+}
+
+.btn-equal:hover {
+    background-color: #4caf50; 
+}
+
+.btn-equal:active {
+    background-color: #43a047; 
+}
+
+button:disabled {
+    background-color: #bdbdbd; 
+    color: #757575; 
+    cursor: not-allowed;
+}
