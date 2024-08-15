@@ -1,4 +1,4 @@
-# Simple Calculator
+.# Simple Calculator
 This repository contains a simple calculator web application. The calculator is designed with basic arithmetic functionality, including addition, subtraction, multiplication, and division.
 
 ### Features
@@ -10,7 +10,7 @@ This repository contains a simple calculator web application. The calculator is 
 ### Screenshot:
 ![image](https://github.com/user-attachments/assets/a6ae9509-4d0c-496f-a55e-58fbcee318a7)
 ---
-[View Demo](file:///C:/Users/BHARGAVI.LAPTOP-7278VNFH/Downloads/calculator.htmlfile:///C:/Users/BHARGAVI.LAPTOP-7278VNFH/Downloads/calculator.html)
+[View Demo](file:///C:/Users/BHARGAVI.LAPTOP-7278VNFH/Downloads/calculator.html)
 ---
 
 ### How to Use
